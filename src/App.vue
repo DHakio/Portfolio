@@ -1,28 +1,41 @@
 <template>
-    <HelloWorld msg="Site en construction"/>
+    <div id="app">
+        <PortfolioHeader/>
+        <PortfolioBody/>
+    </div>
 </template>
 
-<script>
-import HelloWorld from './components/HelloWorld.vue'
-
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
-</script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-body {
-  margin: 0
-}
+<style lang="scss">
+    @font-face {
+        font-family: "Montserrat bold";
+        src: url("./assets/fonts/Montserrat-Bold.ttf");
+    }
+    @font-face {
+        font-family: "Montserrat classic";
+        src: url('./assets/fonts/Montserrat-Regular.ttf')
+    }
+    #app {
+        font-family: "Montserrat bold";
+    }
+    .font-thin {
+        font-family: "Montserrat classic";
+    }
+    .title {
+        background-color: #ffe7d4;
+        color: #494e5f;
+    }
 </style>
+
+<script lang="ts">
+import { Component, Vue } from 'vue-property-decorator';
+import PortfolioHeader from '@/layouts/PortfolioHeader.vue';
+import PortfolioBody from '@/layouts/PortfolioBody.vue';
+
+@Component({
+  components: {
+    PortfolioHeader,
+    PortfolioBody
+  },
+})
+export default class App extends Vue {}
+</script>
