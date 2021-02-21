@@ -27,7 +27,7 @@
                 <i class="fas fa-magic"></i>
                 <h3 class="h6 my-0 mx-3">FRONT END</h3>
             </div>
-            <ul class="d-flex flex-column align-items-center">
+            <ul class="d-flex flex-column align-items-center p-0">
                 <Competence img="html.png" label="HTML" />
                 <Competence img="css.png" label="CSS" />
                 <Competence img="js.png" label="JAVASCRIPT" />
@@ -42,7 +42,7 @@
             <i class="fas fa-code"></i>
             <h3 class="h6 my-0 mx-3">BACK END</h3>
         </div>
-             <ul class="d-flex flex-column align-items-center">
+             <ul class="d-flex flex-column align-items-center p-0">
                 <Competence img="ts.png" label="TYPESCRIPT" />
                 <Competence img="php.png" label="PHP" />
                 <Competence img="nodejs.png" label="NODE.JS" />
