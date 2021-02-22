@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import VueRouter, { RouteConfig } from 'vue-router'
-import Infos from '../views/Infos.vue'
+import Index from '../views/Index.vue'
 import Contact from '../views/Contact.vue'
 import Projects from '../views/Projects.vue'
 
@@ -9,18 +9,13 @@ Vue.use(VueRouter)
 const routes: Array<RouteConfig> = [
   {
     path: '/',
-    name: 'Infos',
-    component: Infos
+    name: 'Index',
+    component: Index
   },
   {
     path: '/projects',
     name: 'Projects',
     component: Projects
-  },
-  {
-    path: '/contact',
-    name: 'Contact',
-    component: Contact
   }
 ]
 
