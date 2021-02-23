@@ -20,7 +20,7 @@
 
 <script lang="ts">
 export default {
-    name: 'Competence',
+    name: 'Skill',
     props: ['img', 'label']
 }
 </script>

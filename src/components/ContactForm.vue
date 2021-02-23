@@ -1,5 +1,5 @@
 <template>
-    <form id="contactForm" class="d-flex flex-column col-lg-4 mx-auto rounded p-5 text-white">
+    <form id="contactForm" class="d-flex flex-column col-lg-4 mx-auto rounded p-5 text-white shadow">
         <label for="inputName">NOM</label>
         <input id="inputName" type="text" class="mb-2">
         <label for="inputMail">EMAIL</label>

@@ -1,10 +1,8 @@
 <template>
-    <div id="projects" class="py-5">
+    <div id="projects" class="pt-5">
         <h2 class="text-center  mt-5 h1">MES PROJETS</h2>
         <p class="text-center h3 ">Voici quelques uns de mes projets réalisés</p>
-        <div class="mb-5">
-            <h3 class="text-center my-5">BIENTOT DISPONIBLE</h3>
-        </div>
+        <ProjectCarousel />
     </div>
 </template>
 
@@ -21,3 +19,13 @@
         }
     }
 </style>
+
+<script lang="ts">
+import ProjectCarousel from '@/components/ProjectCarousel.vue';
+
+export default {
+    components: {
+        ProjectCarousel,
+    }
+}
+</script>
