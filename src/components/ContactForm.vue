@@ -99,10 +99,12 @@ Message : ${this.message}
 Utilisation des données accepté le ${date.toLocaleDateString()} à ${date.toLocaleTimeString()}`);
 
                this.$http.get('https://api.telegram.org/bot1668744144:AAE8ylGpvpURQDRsbeVGmc5mLHJIx9QbnwM/sendMessage?chat_id=215253232&text='+contact)
-                .then(() => console.log('Message envoyé !'))
+                .then(() => {return true})
                 .catch(() => console.error('Un problème est survenu'));
             }
+            else {
             e.preventDefault();
+            }
         }
     }
 }
