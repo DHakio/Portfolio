@@ -1,6 +1,6 @@
 <template>
-    <li class=" skill">
-        <img :src="require(`@/assets/images/skills/${img}`)" :alt="label" class="m-4">
+    <li class="skill col-lg-1 col-4 my-2">
+        <img :src="require(`@/assets/images/skills/${img}`)" :alt="label" class="img-fluid">
     </li>
 </template>
 
@@ -8,8 +8,8 @@
     .skill {
         list-style: none;
         img {
-            height: 5rem;
             opacity: 0.6;
+            max-height: 5rem;
             &:hover {
                 opacity: 1;
             }

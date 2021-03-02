@@ -1,5 +1,5 @@
 <template>
-    <div id="myself" class="col-12 py-5">
+    <div id="about" class="col-12 py-5">
         <div class="d-flex justify-content-center align-items-center py-5 flex-wrap">
             <div class="col-lg-3 col-sm-12 mb-5">
                 <img src="../assets/images/about.png" alt="About image" class="img-fluid">
@@ -19,7 +19,7 @@
 </template>
 
 <style lang="scss" scoped>
-    #myself {
+    #about {
         background-color: #2a2d33;
         color: white;
     }

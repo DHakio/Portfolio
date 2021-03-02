@@ -1,7 +1,7 @@
 <template>
     <div id="projects" class="pt-5">
-        <h2 class="text-center  mt-5 h1">MES PROJETS</h2>
-        <p class="text-center h3 ">Voici quelques uns de mes projets réalisés</p>
+        <h2 class="text-center  mt-5 h1 px-2">MES PROJETS</h2>
+        <p class="text-center h3 px-2">Voici quelques uns de mes projets réalisés</p>
         <ProjectCarousel />
     </div>
 </template>

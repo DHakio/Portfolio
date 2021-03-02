@@ -1,7 +1,7 @@
 <template>
     <div  id="skills" class="col-md-12 py-5">
         <h2 class="text-center ">MES COMPETENCES</h2>
-        <ul class="d-flex justify-content-center flex-wrap col-10 my-0 mx-auto px-5">
+        <ul class="d-flex justify-content-center flex-wrap align-items-center col-10 my-0 mx-auto py-5">
             <Skill img="html.png" label="HTML" />
             <Skill img="css.png" label="CSS" />
             <Skill img="js.png" label="JAVASCRIPT" />

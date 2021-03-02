@@ -1,7 +1,6 @@
 import Vue from 'vue'
 import VueRouter, { RouteConfig } from 'vue-router'
 import Index from '../views/Index.vue'
-import Contact from '../views/Contact.vue'
 import Projects from '../views/Projects.vue'
 
 Vue.use(VueRouter)
